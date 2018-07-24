@@ -13,7 +13,6 @@ dependencies:
   - partd
   - bokeh
   - dask
-  - datetime
   - ipywidgets
   - urllib
   - warnings
