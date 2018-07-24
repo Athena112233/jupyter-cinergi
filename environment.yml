@@ -14,5 +14,4 @@ dependencies:
   - bokeh
   - dask
   - ipywidgets
-  - urllib
   - warnings
