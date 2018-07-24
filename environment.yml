@@ -1,4 +1,4 @@
-name: example-environment
+name: cinergi-jupyter-environment
 channels:
   - conda-forge
   - trentonoliphant
