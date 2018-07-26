@@ -19,3 +19,6 @@ dependencies:
   - shapely
   - geopandas
   - geojsonio
+  - gdal
+  - ogr
+  - geos
