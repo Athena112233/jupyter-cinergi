@@ -20,5 +20,4 @@ dependencies:
   - geopandas
   - geojsonio
   - gdal
-  - ogr
   - geos
