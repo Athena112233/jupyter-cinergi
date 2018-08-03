@@ -23,9 +23,4 @@ dependencies:
   - geos
   - lxml
   - requests
-  - urllib
-  - datetime
-  - sys
-  - json
-  - pip
-  - pip:
+  
