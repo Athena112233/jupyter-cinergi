@@ -23,7 +23,6 @@ dependencies:
   - geos
   - lxml
   - requests
-  - sys
   - json
   - pip
   - pip:
