@@ -115,8 +115,10 @@ def create_dropdown_data(cinergi_url):
 def create_data_from_urls(data_urls):
     url_data = []
     for i in data_urls:
+        print('Data url %s' % i)
         try:
-            url_data.append(pd.read_csv(i, delim_whitespace=True, header=[0,1], na_values=['99.0','999.0','99.00','999','9999.0' ]))
+            url_data.append(pd.read_csv(i, delim_whitespace=True, header=[0,1], 
+                na_values=['99.0','999.0','99.00','999','9999.0' ], compression='infer'))
             print (' read file: '+ i)
         except:
             print('Link not a csv datafile: ' + i)
