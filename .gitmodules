@@ -1,0 +1,3 @@
+[submodule "operations/pangeo"]
+	path = operations/pangeo
+	url = https://github.com/pangeo-data/pangeo-example-notebooks.git
