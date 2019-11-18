@@ -24,4 +24,5 @@ dependencies:
   - lxml
   - requests
   - tqdm
+  - holoviews
   

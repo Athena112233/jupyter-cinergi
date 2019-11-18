@@ -1,2 +1,5 @@
 *-checkpoint.ipynb
 *.pyc
+myclone
+tempfile
+.ipynb-checkpoints
